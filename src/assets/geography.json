@@ -1,0 +1,125 @@
+{
+    "response_code": 0,
+    "results": [
+      {
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the capital of the American state of Arizona?",
+        "correct_answer": "Phoenix",
+        "incorrect_answers": [
+          "Montgomery",
+          "Tallahassee",
+          "Raleigh"
+        ]
+      },
+      {
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "The body of the Egyptian Sphinx was based on which animal?",
+        "correct_answer": "Lion",
+        "incorrect_answers": [
+          "Bull",
+          "Horse",
+          "Dog"
+        ]
+      },
+      {
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "All of the following are classified as Finno-Ugric languages EXCEPT:",
+        "correct_answer": "Samoyedic",
+        "incorrect_answers": [
+          "Hungarian",
+          "Finnish",
+          "Estonian"
+        ]
+      },
+      {
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of the following European languages is classified as a &quot;language isolate?&quot;",
+        "correct_answer": "Basque",
+        "incorrect_answers": [
+          "Galician",
+          "Maltese",
+          "Hungarian"
+        ]
+      },
+      {
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the capital of the US State of New York?",
+        "correct_answer": "Albany",
+        "incorrect_answers": [
+          "Buffalo",
+          "New York",
+          "Rochester"
+        ]
+      },
+      {
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How many countries does Mexico border?",
+        "correct_answer": "3",
+        "incorrect_answers": [
+          "2",
+          "4",
+          "1"
+        ]
+      },
+      {
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the capital of Spain?",
+        "correct_answer": "Madrid",
+        "incorrect_answers": [
+          "Barcelona",
+          "Sevilla",
+          "Toledo"
+        ]
+      },
+      {
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the largest country in the world?",
+        "correct_answer": "Russia",
+        "incorrect_answers": [
+          "Canada",
+          "China",
+          "United States"
+        ]
+      },
+      {
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of the following countries has a flag featuring a yellow lion wielding a sword on a dark red background?",
+        "correct_answer": "Sri Lanka",
+        "incorrect_answers": [
+          "Kiribati",
+          "Scotland",
+          "Bhutan"
+        ]
+      },
+      {
+        "category": "Geography",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which ocean borders the west coast of the United States?",
+        "correct_answer": "Pacific",
+        "incorrect_answers": [
+          "Atlantic",
+          "Indian",
+          "Arctic"
+        ]
+      }
+    ]
+  }

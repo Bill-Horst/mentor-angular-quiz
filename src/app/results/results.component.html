@@ -1,0 +1,14 @@
+<mat-card-content>
+        <h2>Results</h2>
+        <div class="answer-list-container">
+            <div class="answer" *ngFor="let answer of userAnswers"
+                [ngClass]="{'correct': answer.userChoice.correct, 'not-correct': !answer.userChoice.correct}">
+                <p>Question: {{ answer.question.label | unescape }}</p>
+                <p>Your answer: {{ answer.userChoice.value | unescape }}</p>
+                <p>Correct answer: {{ answer.correctAnswer.value | unescape }}</p>
+            </div>
+        </div>
+        <div>
+            <button mat-raised-button [routerLink]="['']">Take a different quiz</button>
+        </div>
+</mat-card-content>

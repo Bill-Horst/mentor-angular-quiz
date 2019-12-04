@@ -1,15 +1,7 @@
-<div class="quiz" *ngIf="quiz">
+<mat-toolbar color="primary">
+    <span (click)="navigateHome()" class="logo-button">Quiz App</span>
+</mat-toolbar>
 
-  <div class="questions" *ngIf="!showResults">
-    <app-question-form
-      [question]="quiz.questions[currentQuestionIndex]"
-      (onChoiceMade)="updateChoice($event)">
-    </app-question-form>
-
-    <button
-      class="btn btn-success"
-      (click)="nextOrViewResults()"
-      [disabled]="!answers.values[currentQuestionIndex]"
-    >{{currentQuestionIndex === quiz.questions.length - 1 ? 'View results' : 'Next'}}</button>
-  </div>
-</div>
+<mat-card class="main-game-card">
+    <router-outlet></router-outlet>
+</mat-card>
